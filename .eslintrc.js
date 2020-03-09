@@ -32,6 +32,9 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
+    '@typescript-eslint/no-empty-function': 'off',
+    //'no-state-in-constructor': 'always',
+    'max-len': ["error", { "code": 110 }],
     'import/extensions': ['error', 'ignorePackages', {
       'js': 'never',
       'jsx': 'never',
